@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  background-color: blueviolet;
+  height: 7rem;
+}
+
+.header {
+  font-size: 4rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.Lists {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 1rem;
+  font-size: 3rem;
+  gap: 3rem;
+  list-style: none;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.form {
+  /* display: flex;/ */
+  height: 35rem;
+  /* align-content: center; */
+  justify-content: space-between;
+  margin: 0 auto;
+  /* padding: 50rem; */
+  margin-bottom: 15rem;
+  width: 35rem;
+  background-color: aliceblue;
+}
+
+.split {
+  padding: 2rem;
+}
+
+.label {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.inputs {
+  /* display: flex; */
+  align-items: normal;
+  /* justify-content: space-between; */
+  /* width: 2rem; */
+  margin: 0 17rem;
+  /* padding: 2px; */
+  gap: 20rem;
+}
+
+.list {
+  /* display: flex; */
+  justify-content: space-between;
+  /* margin: 0 auto; */
+}
+
+/* tab component section  */
+
+.tab-component {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 2rem 7rem;
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+}
+
+.rad {
+  display: none;
+}
+
+.click {
+  font-size: 1.2rem;
+  font-size: 2rem;
+  padding: 1rem 5rem;
+  position: absolute;
+  right: 60%;
+  top: -7rem;
+  transform: translate(-50%);
+}
+
+.click:hover {
+  background-color: rgb(189, 116, 116);
+  color: white;
+  transition: all 0.4s;
+}
+
+.click2 {
+  right: 40%;
+  border: 1px solid black;
+}
+
+.click3 {
+  right: 20%;
+  border: 1px solid black;
+}
+
+.click4 {
+  right: 0%;
+  border: 1px solid black;
+}
+
+.tab-note {
+  display: none;
+  align-items: center;
+  gap: 3rem;
+}
+
+.rad:checked + .click + .tab-note {
+  display: flex;
+}
+
+.volup-boxer {
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.volup-tittle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.volup-line {
+  width: 5rem;
+  height: 2px;
+  background-color: #277cd7;
+  margin-bottom: 2rem;
+}
+
+.volup-note {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.volup-list-box {
+}
+
+.volup-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.volup-icon {
+  font-size: 1.8rem;
+  color: #277cd7;
+}
+
+.icon-note {
+  font-size: 1.5rem;
+}
+
+.volup-img-box {
+  width: 100%;
+}
+
+.volup-img {
+  width: 100%;
+}

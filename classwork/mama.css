@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.div{
+    padding: 2rem;
+}
+
+.mama{
+    font-size: 3rem;
+}
+
+ .CFYE{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    /* width: 100%; */
+    padding: 2rem;
+ }  
+ 
+ .AGENT{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 3rem;
+ }
+
+.navlist{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+} 
+
+.ulist{
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.button{
+    /* font-size: 14px; */
+    margin-right: 1rem;
+    background-color: green;
+    border: none;
+}
+
+.nav{
+    background-color: whitesmoke;
+    font-size: 2rem;
+}
+
+/* section/ */
+
+.bigbox{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+.list-box{
+    /* margin-top: 2rem; */
+    width: 70%;
+}
+
+.herobiz{
+    margin-bottom: 1rem;
+}
+
+.useful{
+    border-bottom: white 1px solid ;
+}
+
+.lists{
+    
+}
